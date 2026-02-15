@@ -1,0 +1,23 @@
+name = "psyndica/royalty_validators"
+version = "0.1.0"
+license = "Apache-2.0"
+description = "EUTXO validators for Psyndica music royalty distribution"
+
+[repository]
+user = "psyndica-labs"
+project = "utxo"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "v2.2.0"
+source = "github"
+
+[[dependencies]]
+name = "aiken-lang/fuzz"
+version = "v2.1.0"
+source = "github"
+
+[config]
+# Supervision tree: validators crash on invalid state, supervisors handle recovery
+# All execution is deterministic: (Datum, Redeemer, ScriptContext) → Bool
