@@ -1,0 +1,24 @@
+[package]
+name = "psyndica/utxo"
+version = "0.1.0"
+license = "Apache-2.0"
+description = "EUTXO-based royalty distribution system for music NFTs"
+
+[repository]
+user = "Psyndica-Labs"
+project = "UTXO"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "v2.2.0"
+source = "github"
+
+[[dependencies]]
+name = "aiken-lang/fuzz"
+version = "v2.1.0"
+source = "github"
+
+[config]
+# Network configuration for different environments
+network = "preview"
