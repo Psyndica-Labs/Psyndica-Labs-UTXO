@@ -1,0 +1,38 @@
+{
+  "name": "@psyndica/utxo-sdk",
+  "version": "0.1.0",
+  "description": "Psyndica EUTXO Off-chain SDK - Supervision Tree Architecture",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@meshsdk/core": "^1.7.0",
+    "@meshsdk/react": "^1.6.0",
+    "cbor": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "eslint": "^8.55.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cardano",
+    "utxo",
+    "eutxo",
+    "mesh",
+    "royalty",
+    "nft"
+  ],
+  "license": "Apache-2.0"
+}
