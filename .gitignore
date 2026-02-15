@@ -1,0 +1,35 @@
+# Aiken build artifacts
+/build/
+/plutus.json
+
+# Node.js
+node_modules/
+dist/
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Lock files (optional - remove if you want to track these)
+# package-lock.json
