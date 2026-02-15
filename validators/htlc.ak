@@ -16,12 +16,13 @@
 //// - Refund before deadline → rejection
 
 use aiken/crypto.{blake2b_256}
+use aiken/interval.{Finite}
 use cardano/address.{Address, VerificationKey}
 use cardano/assets.{lovelace_of}
 use cardano/transaction.{
   InlineDatum, Input, Output, OutputReference, Transaction, ValidityRange,
 }
-use psyndica/types.{
+use types.{
   Claim, HTLCDatum, HTLCDatumV1, HTLCRedeemer, PubKeyHash, Refund,
 }
 

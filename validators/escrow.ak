@@ -16,10 +16,11 @@
 
 use cardano/address.{Address, Script, VerificationKey}
 use cardano/assets.{lovelace_of}
+use aiken/interval.{Finite}
 use cardano/transaction.{
   InlineDatum, Input, Output, OutputReference, Transaction, ValidityRange,
 }
-use psyndica/types.{
+use types.{
   EscrowDatum, EscrowDatumV1, EscrowRedeemer, PartialRelease, PubKeyHash,
   RefundEscrow, Release, SignatureRequirement, meets_threshold,
 }

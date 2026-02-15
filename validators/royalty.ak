@@ -16,7 +16,7 @@ use cardano/assets.{lovelace_of}
 use cardano/transaction.{
   InlineDatum, Input, Output, OutputReference, Transaction,
 }
-use psyndica/types.{
+use types.{
   AdminWithdraw, BasisPoints, Distribute, LockConfig, PubKeyHash,
   RoyaltyDatum, RoyaltyDatumV1, RoyaltyRecipient, RoyaltyRedeemer, UpdateConfig,
   calculate_payout, validate_shares,
